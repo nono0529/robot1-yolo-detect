@@ -50,7 +50,7 @@ sha256sum /root/jaka/model_delivery/best.pt
 预期结果：
 
 ```text
-24e38090b7994e9fa79829ad9c958e57e755c81f7a3ae7dcadb0cb974d5ba514
+1b5858b8b76362d5f23dc766aa91743e8696dbbf38722837d15ad9fcac07019b
 ```
 
 校验一致表示上传的文件与交付模型相同。
@@ -99,4 +99,3 @@ rostopic echo /mycaryolo
 ```
 
 其中 `name` 是类别，`conf` 是置信度，`pose.position` 是相机坐标计算结果。
-
